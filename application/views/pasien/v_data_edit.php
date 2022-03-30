@@ -29,8 +29,8 @@
                             <div class="form-group">
                                 <button class="btn btn-primary btn-sm" type="submit">Update</button>
                             </div>
+                        </form>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>

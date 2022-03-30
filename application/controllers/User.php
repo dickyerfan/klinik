@@ -31,12 +31,12 @@ class User extends CI_Controller
     }
     public function insert()
     {
-        $u = $this->input->post('username');
+        $u = $this->input->post('nama');
         $p = md5($this->input->post('password'));
         $n = $this->input->post('nama_lengkap');
 
         $data = array(
-            'username' => $u,
+            'nama' => $u,
             'password' => $p,
             'nama_lengkap' => $n
         );
@@ -57,13 +57,13 @@ class User extends CI_Controller
     public function update()
     {
         $id = $this->input->post('id');
-        $u = $this->input->post('username');
-        $p = md5($this->input->post('password'));
+        $u = $this->input->post('nama');
+        // $p = md5($this->input->post('password'));
         $n = $this->input->post('nama_lengkap');
 
         $data = array(
-            'username' => $u,
-            'password' => $p,
+            'nama' => $u,
+            // 'password' => $p,
             'nama_lengkap' => $n
         );
         $where = array('id' => $id);

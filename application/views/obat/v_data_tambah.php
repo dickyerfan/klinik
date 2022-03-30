@@ -16,8 +16,8 @@
                             <div class="form-group">
                                 <button class="btn btn-primary btn-sm" type="submit">Simpan</button>
                             </div>
+                        </form>
                     </div>
-                    </form>
                 </div>
             </div>
         </div>

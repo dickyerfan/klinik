@@ -11,7 +11,7 @@
                         <form action="<?= base_url('user/insert'); ?>" method="post">
                             <div class="form-group">
                                 <label for="">Username</label>
-                                <input type="text" name="username" class="form-control" required>
+                                <input type="text" name="nama" class="form-control" required>
                             </div>
                             <div class="form-group">
                                 <label for="">Nama Lengkap</label>
